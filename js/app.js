@@ -181,14 +181,14 @@ function make_base(ctx, candidateGeneJSON, chtVersion, resize) {
     if (chtVersion) {
       base_image.src = 'http://192.168.0.199/cancer-screening/images/abnormal.png';
     } else {
-      base_image.src = 'http://192.168.0.199/cancer-screening/images/abnormal.png';
+      base_image.src = 'http://192.168.0.199/cancer-screening/images/abnormal_en.png';
       console.log('eng version');
     }
   } else {
     if (chtVersion) {
       base_image.src = 'http://192.168.0.199/cancer-screening/images/normal.png';
     } else {
-      base_image.src = 'http://192.168.0.199/cancer-screening/images/normal.png';
+      base_image.src = 'http://192.168.0.199/cancer-screening/images/normal_en.png';
       console.log('eng version');
     }
   }
